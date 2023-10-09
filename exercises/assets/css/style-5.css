@@ -40,6 +40,11 @@ h2 {
     margin-bottom: 4px;
 }
 
+img {
+    margin-bottom: 32px;
+    border-radius: 15px;
+
+}
 /* Text paragraphs */
 p {
    font-family: sans-serif;
