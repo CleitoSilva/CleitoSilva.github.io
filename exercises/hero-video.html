@@ -1,41 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Hero Block with Video</title>
-    <meta name="description" content="A hero block with a background video that plays in a continuous loop and includes a tinted overlay.">     
+    <meta
+      name="description"
+      content="A hero block with a background video that plays in a continuous loop and includes a tinted overlay."
+    />
+    <title>Hero Block with Video</title>
 
-    <link rel="stylesheet" href="assets/videos/hero-still.jpg.">
+    <link rel="stylesheet" href="assets/css/hero-image.css" />
+    <link rel="preload" href="assets/videos/hero-still.jpg" as="image" />
+  </head>
 
-    <link rel="stylesheet" href="assets/css/hero-visual.css">
-
-</head>
-
-
-<body>
-
-
+  <body>
     <!-- hero block -->
     <header class="hero-block text-center">
-
-        <div class="hero-text-container">
-            <h1 class="slide-in-top" >Cleiton Ferreira</h1>
-            <h2 class="slide-in-left">Web Developer</h2>
-        </div>
-
-        <div class="hero-bg-media">
-            <video loop muted autoplay poster="assets/videos/hero-still.jpg" class="background-video" disablepictureinpicture preload="auto">  
-            <source src="assets/videos/hero-video.mp4" type="video/mp4">
-            </video>
-        </div>
-
+      <div class="hero-text-container">
+        <h1 class="slide-in-top">Education for Life</h1>
+        <h2 class="slide-in-left">A brighter career and future</h2>
+      </div>
+      <div class="hero-bg-media">
+        <video
+          loop
+          playsinline
+          muted
+          autoplay
+          poster="assets/videos/hero-still.jpg"
+          class="background-video"
+          disablepictureinpicture
+          preload="auto"
+        >
+          <source src="assets/videos/hero-video.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="bg-overlay"></div>
     </header>
     <!-- /hero block -->
-
- 
 <p><a href="../index.html">Back to Home page</a></p>
-</body>
+  </body>
 </html>

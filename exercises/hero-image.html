@@ -1,37 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="A hero block with a background image and a tinted overlay."
+    />
     <title>Hero Block with Image</title>
-    <meta name="description" content="A hero block with a background image and a tinted overlay.">   
 
-    <link rel="stylesheet" href="assets/css/hero-text.css">
+    <link rel="stylesheet" href="assets/css/hero-image.css" />
+    <link rel="preload" href="assets/img/business.jpg" as="image" />
+  </head>
 
-</head>
-
-
-<body>
-
-
+  <body>
     <!-- hero block -->
     <header class="hero-block text-center">
-
-        <div class="hero-text-container">
-            <h1 class="slide-in-top" >Cleiton Ferreira</h1>
-            <h2 class="slide-in-left">Web Developer</h2>
-        </div>
-
-        <div class="hero-bg-media">
-            <img src="assets/img/business.jpg" alt="sample background image">   
-        </div>
-
+      <div class="hero-text-container">
+        <h1 class="slide-in-top">Cleiton Ferreira</h1>
+        <h2 class="slide-in-left">Creative Web Developer</h2>
+      </div>
+      <div class="hero-bg-media">
+        <img src="assets/img/business.jpg" alt="sample background image" />
+      </div>
+      <div class="bg-overlay"></div>
     </header>
     <!-- /hero block -->
-
- 
-<p><a href="../index.html">Back to Home page</a></p>
-</body>
+  </body>
 </html>
