@@ -145,8 +145,26 @@ I believe technology goes beyond code — it’s a bridge between ideas, people,
     </section>
   </main>
 
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="js/script.js"></script>
+<button id="backToTop">↑</button>
+
+<!-- Botão Dark Mode -->
+<button id="theme-toggle">
+  <ion-icon name="sunny-outline"></ion-icon>
+</button>
+
+<!-- ===== DAILY QUOTE WIDGET ===== -->
+<div id="quote-widget">
+  <p id="quote-text">Loading daily quote...</p>
+</div>
+
+<!-- ===== LINKS E SCRIPTS ===== -->
+<link rel="stylesheet" href="css/quote-widget.css">
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="js/script.js"></script>
+<script src="js/quote-widget.js"></script>
+
 </body>
 </html>

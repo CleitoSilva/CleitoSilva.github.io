@@ -438,3 +438,96 @@ body {
 .carousel-btn.next {
   right: 10px;
 }
+/* ===== BOTÃO DE TEMA ===== */
+#theme-toggle {
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+#theme-toggle:hover {
+  background-color: #38bdf8;
+}
+
+/* ===== BOTÃO VOLTAR AO TOPO ===== */
+#backToTop {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 1.5rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+#backToTop:hover {
+  background-color: #38bdf8;
+}
+
+/* ===== MODO CLARO (oposto do padrão dark) ===== */
+body.light-mode {
+  background-color: #f1f5f9; /* fundo claro */
+  color: #0f172a; /* texto escuro */
+}
+
+body.light-mode #bio-container,
+body.light-mode #about-container {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+body.light-mode a {
+  color: #007acc;
+}
+/* === DAILY QUOTE WIDGET STYLE === */
+#quote-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border-radius: 10px;
+  padding: 12px 16px;
+  max-width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  font-family: "Roboto", sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+  text-align: left;
+  z-index: 2000;
+  opacity: 0.95;
+  transition: opacity 0.3s ease;
+}
+
+#quote-widget:hover {
+  opacity: 1;
+}
+
+#quote-text {
+  margin: 0;
+}
+
